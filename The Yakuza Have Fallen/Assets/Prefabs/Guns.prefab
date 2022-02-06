@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2538391922488612431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2285006253613487808}
+  - component: {fileID: -4109946261839201631}
+  - component: {fileID: -7405744775316552030}
+  - component: {fileID: -1773479728276451056}
+  - component: {fileID: 5298408674199048895}
+  m_Layer: 0
+  m_Name: Guns
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2285006253613487808
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2538391922488612431}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-4109946261839201631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2538391922488612431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e13f665fc272d4e9f2119203a18011, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-7405744775316552030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2538391922488612431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6604d49acce33a74887a968dcc9cd74d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireType: 
+  firePoint: {fileID: 0}
+  range: 0
+  fpsCam: {fileID: 0}
+  damage: 0
+  zoomedFov: 0
+  zoomedSensitivity: 0
+--- !u!114 &-1773479728276451056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2538391922488612431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52d2a5e28fc5fce449d353258f2dfbe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletHoles: []
+--- !u!114 &5298408674199048895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2538391922488612431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 791992a5da1dfd54ba1bcf7da12b2d09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalAmmo: 0
+  currentAmmo: 0
+  clipSize: 0
+  ammoNotInClip: 0
+  reloadSpeed: 0
+  AmmoText: {fileID: 0}
